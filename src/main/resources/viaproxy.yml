@@ -1,0 +1,5 @@
+name: "ViaProxyPassthrough"
+version: "${version}"
+author: "HowardZHY"
+main: "viaproxy.addons.passthrough.ViaProxyPassthrough"
+min-version: "3.4.0"
