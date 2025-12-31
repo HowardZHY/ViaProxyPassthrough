@@ -20,6 +20,14 @@ public class PassthroughConfig {
         return protocol;
     }
 
+    @Option("passthrough-snapshots")
+    @Description("Determine April Fools snapshots should be handled by ViaProxy or passthrough.")
+    public static boolean passthroughSnapshots = false;
+
+    public static boolean shouldPassthroughSnapshots() {
+        return passthroughSnapshots;
+    }
+
     public static void load() {
         try {
             ConfigLoader<PassthroughConfig> configLoader = new ConfigLoader<>(PassthroughConfig.class);

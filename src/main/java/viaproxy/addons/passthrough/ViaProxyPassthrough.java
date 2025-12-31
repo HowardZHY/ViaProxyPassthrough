@@ -21,6 +21,7 @@ import net.raphimc.viaproxy.ViaProxy;
 import net.raphimc.viaproxy.plugins.ViaProxyPlugin;
 import net.raphimc.viaproxy.plugins.events.ViaLoadingEvent;
 
+@SuppressWarnings("unused")
 public class ViaProxyPassthrough extends ViaProxyPlugin {
 
     @Override
